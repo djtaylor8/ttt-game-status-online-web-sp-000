@@ -44,5 +44,6 @@ def over?(board)
 end
 
 def winner(board, token)
-  if win_combination = 
+  if win_combination = won?(board)
+    
 end
